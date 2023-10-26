@@ -16,6 +16,14 @@ public class DebugExercise2 {
         return max;
     }
 
+    //rewrote 'max' method
+    public static int maxNew(int a, int b) {
+        if (a >= b) {
+            return a;
+        }
+        return b;
+    }
+
 
     /** Returns the sum of a and b. Do not step into this function. */
     public static int add(int a, int b) {
@@ -51,14 +59,6 @@ public class DebugExercise2 {
         }
 
         return returnArray;
-    }
-
-    //rewrote 'max' method
-    public static int maxNew(int a, int b) {
-        if (a >= b) {
-            return a;
-        }
-        return b;
     }
 
     /** Returns the sum of all elements in x. */
